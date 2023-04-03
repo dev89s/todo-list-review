@@ -1,0 +1,154 @@
+/* ---- global style ---- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+body,
+main {
+  height: 100vh;
+  font-family: 'Open Sans', 'Lucida Grande', tahoma, verdana, arial, sans-serif;
+}
+
+textarea {
+  font-family: 'Open Sans', 'Lucida Grande', tahoma, verdana, arial, sans-serif;
+}
+
+/* ---- list styles ---- */
+
+.todolist-container {
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  margin-top: 60px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.todolis-header {
+  display: flex;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 30%;
+}
+
+.refresh-btn:hover {
+  opacity: 100%;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.new-task {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.return-btn {
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  gap: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.task-checkbox {
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 3px solid #000;
+}
+
+.task-input,
+.new-task-input {
+  font-size: 1em;
+  font-weight: 100;
+  overflow: auto;
+  resize: none;
+  width: 100%;
+  border: none;
+}
+
+.three-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: move;
+  opacity: 30%;
+}
+
+.three-dots:hover {
+  opacity: 100%;
+}
+
+.trash-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 30%;
+}
+
+.trash-btn:hover {
+  opacity: 100%;
+}
+
+.tasklist-clear-completed {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.tasklist-clear-completed span {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.tasklist-clear-completed span:hover {
+  opacity: 100%;
+}
