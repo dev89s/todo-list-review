@@ -17,7 +17,7 @@ describe('add-to-list function test', () => {
   test('add more than one task works', () => {
     // Arrange
     const taskList = new TaskList();
-    const tasks = ['shopping', 'reading', 'homework', 'library']
+    const tasks = ['shopping', 'reading', 'homework', 'library'];
 
     // Act
     tasks.forEach((task) => {
@@ -33,7 +33,7 @@ describe('add-to-list function test', () => {
   test('indexes are currectly set', () => {
     // Arrange
     const taskList = new TaskList();
-    const tasks = ['shopping', 'reading', 'homework', 'library']
+    const tasks = ['shopping', 'reading', 'homework', 'library'];
 
     // Act
     tasks.forEach((task) => {

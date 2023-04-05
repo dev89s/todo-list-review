@@ -32,7 +32,7 @@ describe('remove task function tests', () => {
     // Act
     const index = tasks.length;
     removeTask(taskList, index);
-    tasks.splice(tasks.length - 1, 1)
+    tasks.splice(tasks.length - 1, 1);
 
     // Asses
     tasks.forEach((task, i) => {
