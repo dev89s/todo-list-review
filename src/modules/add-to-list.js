@@ -10,3 +10,4 @@ const addToList = (tasklist, newTask) => {
 };
 
 export default addToList;
+module.exports = addToList;
