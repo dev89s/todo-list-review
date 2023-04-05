@@ -1,4 +1,3 @@
-import loadTasksToList from './load-tasks.js';
 /**
  *
  * @param {TaskList} tasklist
@@ -6,7 +5,6 @@ import loadTasksToList from './load-tasks.js';
  */
 const addToList = (tasklist, newTask) => {
   tasklist.addTask(newTask);
-  loadTasksToList(tasklist);
 };
 
 export default addToList;

@@ -29,12 +29,14 @@ const loadPage = (tasklist) => {
   newTaskInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter' && newTaskInput.value !== '') {
       addToList(tasklist, newTaskInput.value);
+      loadTasksToList(tasklist);
       newTaskInput.value = '';
     }
   });
   returnBtn.addEventListener('click', () => {
     if (newTaskInput.value !== '') {
       addToList(tasklist, newTaskInput.value);
+      loadTasksToList(tasklist);
       newTaskInput.value = '';
     }
   });
