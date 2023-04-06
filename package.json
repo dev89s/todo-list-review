@@ -4,7 +4,7 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest --verbose --coverage",
     "testwatch": "jest --watch --verbose *.test.js",
     "build": "webpack",
     "watch": "webpack --watch",
