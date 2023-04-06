@@ -17,7 +17,7 @@ describe('remove task function tests', () => {
     removeTask(taskList, index);
 
     // Asses
-    expect(taskList.list[index].index).toBe(tasks.indexOf('library') - 1);
+    expect(taskList.list[index].index).toBe(tasks.indexOf('library'));
   });
 
   test('remove last item works', () => {
