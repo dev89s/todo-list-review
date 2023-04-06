@@ -14,7 +14,7 @@ const uncompleteTask = (tasklist, index) => {
 const clearAllDone = (tasklist) => {
   tasklist.list = tasklist.list.filter((task) => !task.completed);
   for (let i = 0; i < tasklist.list.length; i += 1) {
-    tasklist.list[i].index = i;
+    tasklist.list[i].index = i + 1;
   }
   localStorage.setItem('tasks', JSON.stringify(tasklist.list));
 };
