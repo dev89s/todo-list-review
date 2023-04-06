@@ -18,7 +18,7 @@ class TaskList {
   removeTask = (index) => {
     this.list.splice(index - 1, 1);
     for (let i = 0; i < this.list.length; i += 1) {
-      this.list[i].index = i;
+      this.list[i].index = i + 1;
     }
     localStorage.setItem('tasks', JSON.stringify(this.list));
   }
