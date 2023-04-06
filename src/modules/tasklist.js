@@ -1,6 +1,4 @@
 class TaskList {
-  list = [];
-
   constructor() {
     this.list = [];
   }
