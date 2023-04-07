@@ -11,23 +11,24 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-  <!-- - [🎬 Representation of project](#representation) -->
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Usage](#usage)
-
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 Todo List ](#-todo-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 <br>
 <!-- PROJECT DESCRIPTION -->
@@ -92,28 +93,33 @@
 
 ### Prerequisites
 
-In order to reproduce the Awesome Books ES6 and be able to make changes for your own purpose you need the following tools:
+In order to reproduce the Todo-List and be able to make changes for your own purpose you need the following tools:
   - Visual Studio Code
   - <a href="https://git-scm.com/">git-scm</a>
   - A Github account
+  - NodeJS (which also includes npm package manager)
 
 ### Setup
 
   1. Make a new directory and go inside the directory using cd command in terminal
   2. Use "git" to clone this repository into your local drive:
       >```$ git clone https://github.com/dev89s/todo-list```
+  3. Run the command to install all necessary dependancies:
+      >``` npm install ```
 
 ### Usage
 
-  - To be able to any features to the project's current state use this command:
-    > ```$ git checkout add-remove```
-  - Feel free to change the code and make any adjustment to the design and once you are satisfied with your work you can make a new directory and copy your files there.
+  - To see the results of the tests run the commands:
+    >``` npm test ```
+
+    You'll be able to see different tests that are done and the percentage of coverage of the tested functions.
+  - To add to the tests or examine different tests that are done go to:
+    >``` [root_dir]/src/modules/[modulename].test.js ```
 
 ### Deployment
 
 You can deploy this project by opening a new github repo and initialize the local git repo and connect it through: ```$ git remote add origin main [your github repo link]``` command.
-Then you can make a pull requrest and 
-Then if you go to the repository in your account, you'll see the pull requrest prompt appear at the top and the you can make a pull request and observe the Github Actions checking Linters.
+Then you can push the project into that repository and if you go to the repository in your account, you'll see the code in the account.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
