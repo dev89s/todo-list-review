@@ -3,7 +3,6 @@ import addToList from './add-to-list.js';
 import TaskList from './tasklist.js';
 
 describe('Clear All function test', () => {
-
   test('clear All function works', () => {
     // Arrange
     const tasklist = new TaskList();
@@ -16,7 +15,7 @@ describe('Clear All function test', () => {
 
     // Act
     clearAllDone(tasklist);
-    
+
     // Asses
     expect(tasklist.list.length).toBe(2);
   });
@@ -35,7 +34,7 @@ describe('Clear All function test', () => {
 
     // Act
     clearAllDone(tasklist);
-    
+
     // Asses
     expect(tasklist.list.length).toBe(0);
   });
@@ -50,9 +49,8 @@ describe('Clear All function test', () => {
 
     // Act
     clearAllDone(tasklist);
-    
+
     // Asses
     expect(tasklist.list.length).toBe(0);
   });
-
 });

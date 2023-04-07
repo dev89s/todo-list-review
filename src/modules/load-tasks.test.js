@@ -3,7 +3,6 @@ import TaskList from './tasklist.js';
 import addToList from './add-to-list.js';
 import loadTasksToList from './load-tasks.js';
 import { completeTask } from './status-update.js';
-import { experiments } from 'webpack';
 
 describe('test load-tasks DOM function', () => {
   test('function initiates properly and adds required elements', () => {
@@ -138,7 +137,7 @@ describe('test load-tasks DOM function', () => {
     loadTasksToList(tasklist);
 
     // Asses
-    let li = document.getElementById(index);
+    const li = document.getElementById(index);
     const textBox = li.querySelector('.task-input');
     textBox.focus();
     const threeDots = li.querySelector('.three-dots');
@@ -169,7 +168,7 @@ describe('test load-tasks DOM function', () => {
     loadTasksToList(tasklist);
 
     // Asses
-    let li = document.getElementById(index);
+    const li = document.getElementById(index);
     const textBox = li.querySelector('.task-input');
     textBox.focus();
     textBox.value = 'something else';
