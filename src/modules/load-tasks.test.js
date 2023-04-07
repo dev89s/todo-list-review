@@ -149,6 +149,7 @@ describe('test load-tasks DOM function', () => {
 
   test('textbox focusout', () => {
     // Arrange
+    jest.useFakeTimers();
     const dom = new JSDOM();
     const { document } = dom.window;
     global.DOMParser = document.DOMParser;
