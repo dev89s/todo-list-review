@@ -5,7 +5,7 @@
   "private": "true",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "testwatch": "jest --watch --verbose *.test.js",
+    "testwatch": "jest --watchAll --verbose",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open"
