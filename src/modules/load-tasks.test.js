@@ -37,7 +37,6 @@ describe('test load-tasks DOM function', () => {
     // Arrange
     const dom = new JSDOM();
     const { document } = dom.window;
-    global.DOMParser = document.DOMParser;
     global.document = document;
     const todolist = document.createElement('div');
     todolist.classList.add('todolist');
